@@ -2,6 +2,7 @@ data/
 test.ipynb
 *.wav
 *.mid
+*.gif
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
