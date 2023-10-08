@@ -4,5 +4,6 @@ scipy
 pandas
 matplotlib
 mido
+audiolazy
 
 jupyter
