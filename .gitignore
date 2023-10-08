@@ -1,5 +1,7 @@
 data/
 test.ipynb
+*.wav
+*.mid
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

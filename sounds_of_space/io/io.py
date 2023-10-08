@@ -35,8 +35,6 @@ def read_img(fname):
         fname (str): filepath without extension, e.g. "data/t1064_mrrif_05n228_0256_3"
             Both "{fname}.lbl" and "{fname}.img" should exist
     """
-    band_select = np.r_[433:185:-1, 170:-1:68]
-
     fbase, _ = os.path.splitext(fname)
     try:
         img = envi.open(f"{fbase}.hdr")
